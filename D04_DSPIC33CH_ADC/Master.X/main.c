@@ -101,10 +101,16 @@ int main(void)
     }
     
  
+    ADC_SetConfiguration(ADC_CONFIGURATION_DEFAULT);
+    ADC_ChannelEnable(ADC_CHANNEL_POTENTIOMETER);
+    
+    uint16_t pot_1;
  
     while (1)
     {
-        printf("Hello World!\n");
+         pot_1 = ADC_Read12bit(ADC_CHANNEL_POTENTIOMETER);
+         printf("Pot_1:%d\n", pot_1);
+ 
         __delay_ms(1000);
     }
 }

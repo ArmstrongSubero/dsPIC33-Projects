@@ -237,17 +237,17 @@ usercode
 .comment
  *(.comment)
 
-.debug_info       0x000000       0x28b1
+.debug_info       0x000000       0x28de
  *(.debug_info)
- .debug_info      0x000000        0x49a build/default/production/mcc_generated_files/reset.o
- .debug_info      0x00049a        0x353 build/default/production/mcc_generated_files/system.o
- .debug_info      0x0007ed        0x4a5 build/default/production/main.o
- .debug_info      0x000c92        0xb97 build/default/production/mcc_generated_files/master.o
- .debug_info      0x001829        0x5c7 build/default/production/mcc_generated_files/traps.o
- .debug_info      0x001df0        0x340 build/default/production/mcc_generated_files/clock.o
- .debug_info      0x002130        0x166 build/default/production/mcc_generated_files/interrupt_manager.o
- .debug_info      0x002296        0x2fd build/default/production/mcc_generated_files/mcc.o
- .debug_info      0x002593        0x31e build/default/production/mcc_generated_files/pin_manager.o
+ .debug_info      0x000000        0x49f build/default/production/mcc_generated_files/reset.o
+ .debug_info      0x00049f        0x358 build/default/production/mcc_generated_files/system.o
+ .debug_info      0x0007f7        0x4aa build/default/production/main.o
+ .debug_info      0x000ca1        0xb9c build/default/production/mcc_generated_files/master.o
+ .debug_info      0x00183d        0x5cc build/default/production/mcc_generated_files/traps.o
+ .debug_info      0x001e09        0x345 build/default/production/mcc_generated_files/clock.o
+ .debug_info      0x00214e        0x16b build/default/production/mcc_generated_files/interrupt_manager.o
+ .debug_info      0x0022b9        0x302 build/default/production/mcc_generated_files/mcc.o
+ .debug_info      0x0025bb        0x323 build/default/production/mcc_generated_files/pin_manager.o
  *(.gnu.linkonce.wi.*)
 
 .debug_abbrev     0x000000        0x6dc

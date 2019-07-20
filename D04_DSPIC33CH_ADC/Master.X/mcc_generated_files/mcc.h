@@ -53,6 +53,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include "watchdog.h"
+#include "adc1.h"
 #include "uart1.h"
 #include "reset.h"
 #include "interrupt_manager.h"
